@@ -12,9 +12,9 @@ I'm a frist year undergraduate student from [School of Computer Science and Tech
 In 2022, I entered the[School of Computer Science at Wuhan University](https://www.whu.edu.cn/), majoring in [Computer Science and Technology](https://cs.whu.edu.cn/). In 2024, I started working under the supervision of Prof. [Zhigang Tu](http://tuzhigang.cn/), through whose guidance I was first introduced to scientific research. 
 
 
-You can find my CV here: [donghs's Curriculum Vitae](./cv.pdf).
+You can find my CV here: [donghs's Curriculum Vitae](../_pages/cv.pdf).
 
-[Email](dongsh@whu.edu.cn) / [Github](https://github.com/Dhs2004) / [Wechat](../images/wechat.jpg) / [CSDN](https://blog.csdn.net/2202_76009199?type=blog)
+[Email](dongsh@whu.edu.cn) / [Github](https://github.com/Dhs2004) / [Wechat](../images/wx.jpg) / [CSDN](https://blog.csdn.net/2202_76009199?type=blog)
 
 
 A data-driven personal website
