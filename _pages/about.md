@@ -25,19 +25,33 @@ redirect_from:
 - **2026.06** — 加入字节跳动抖音直播部门，开展多模态 4D 拆件模型与 3D 模组质量奖励模型训练。
 - **2026.06** — 完成 TeleAI 视觉理解研发中心实习，参与 TeleMM-2.0-Thinking 的八个版本训练迭代。
 - **2025.10** — 获得 MARS2 2025 现实场景视觉定位（VG-RS）挑战赛第三名。
+- **2025.05** — 低光图像恢复论文 DED-Net 发表于 *The Visual Computer*。
 - **2024.10** — 获得国家奖学金。
 
 <span class="anchor" id="research"></span>
 
 ## 📝 Selected Research
 
-<div class="research-card">
-  <div class="research-mark">DEPPO</div>
+<div class="research-card has-figure">
+  <div class="research-figure"><img src="{{ site.baseurl }}/images/ded-net-method.png" alt="DED-Net 方法流程图" loading="lazy" /></div>
+  <div class="research-copy">
+    <span class="research-status">Co-first Author · The Visual Computer 41, 9243–9255 (2025)</span>
+    <h3>DED-Net: Multi-Scale Fusion and Illumination-Guided Enhancement for Low-Light Image Restoration</h3>
+    <p><strong>Haosen Dong</strong>, Shihao Cheng, Tianyou Fang, Jin Chen, Zhigang Tu</p>
+    <p>以多尺度图像特征增强模块估计光照信息，并通过照明引导恢复模块建模不同照明区域间的非局部交互，在控制计算成本的同时提升低光图像的细节恢复质量。</p>
+    <p class="paper-links"><a href="https://doi.org/10.1007/s00371-025-03924-7">Paper</a> · <a href="https://github.com/Dhs2004/DED-Net">Code</a></p>
+    <div class="metric-row"><span>JCR Q2</span><span>IF 3.0</span><span>SCI 3区</span><span>LOLv1 PSNR 25.87</span></div>
+  </div>
+</div>
+
+<div class="research-card has-figure">
+  <div class="research-figure"><img src="{{ site.baseurl }}/images/deppo-method.png" alt="DEPPO 双经验池策略优化方法总览图" loading="lazy" /></div>
   <div class="research-copy">
     <span class="research-status">First Author · EMNLP 2026 Submission</span>
     <h3>DEPPO: Dual Experience Pool Policy Optimization for Long-Horizon Agentic RL</h3>
     <p><strong>董浩森</strong> 等</p>
     <p>提出成功/失败双经验池，在无需 Critic 或过程监督的情况下进行 step-level 信用分配。在 Qwen2.5-7B 上，ALFWorld 平均成功率达到 <strong>95.7%</strong>，WebShop Score/Success 达到 <strong>90.1/84.3</strong>。</p>
+    <p class="paper-links"><a href="{{ site.baseurl }}/files/DEPPO.pdf">Paper</a></p>
     <div class="metric-row"><span>ALFWorld 95.7</span><span>WebShop +9.1</span><span>OA 3.5 · Meta 3.5</span></div>
   </div>
 </div>
@@ -79,6 +93,7 @@ redirect_from:
 
 <div class="timeline-item">
   <div class="timeline-date">2026.06 — 至今</div>
+  <div class="company-logo"><img src="{{ site.baseurl }}/images/bytedance-logo.png" alt="字节跳动 ByteDance Logo" loading="lazy" /></div>
   <div><h3>字节跳动 · 抖音直播部门</h3><p class="role">大模型算法实习生 · 北京</p>
   <ul>
     <li><strong>多模态 4D 拆件：</strong>完成 GLB 清洗、多视图渲染、Tree/Schema、3D BBox 与 CoT 生成，构建 17 万条训练数据；在 SeedLite 与 Qwen3.6-35B-A3B 上完成 LoRA / 全量 SFT。</li>
@@ -89,6 +104,7 @@ redirect_from:
 
 <div class="timeline-item">
   <div class="timeline-date">2025.08 — 2026.06</div>
+  <div class="company-logo company-logo--teleai"><img src="{{ site.baseurl }}/images/teleai-logo.jpg" alt="中国电信人工智能研究院 TeleAI Logo" loading="lazy" /></div>
   <div><h3>中国电信人工智能研究院（TeleAI）</h3><p class="role">VLM 算法实习生 · 视觉理解研发中心 · 上海</p>
   <ul>
     <li><strong>TeleMM-2.0-Thinking：</strong>参与八个版本的 RL 训练迭代，实现 verl / ms-swift 训练支持和 VLMEvalKit 测评，构建 10 万条 RLVR 可验证数据。</li>
@@ -106,9 +122,18 @@ redirect_from:
   - GPA 3.91/4.00，专业 Top 3%。
   - 国家奖学金、甲等奖学金、乙等奖学金、金山助学金。
 
+<span class="anchor" id="patents"></span>
+
+## 📜 Patents
+
+1. **基于 GNSS 双频载波历元差无几何组合观测的改进相位平滑伪定位方法及装置**，CN118583160A，2024.09。
+2. **在城市环境下的视觉惯性里程计辅助 PPP 定位方法及系统**，CN118363050B，2024.12。
+3. **基于鱼眼相机的全天时 GNSS NLOS 识别方法及装置**，CN118938271A，2024.11。
+
 ## 🏆 Honors & Skills
 
-- 三项国家发明专利，八项竞赛获奖，一篇计算机视觉方向 SCI 论文。
+- 国家奖学金、甲等奖学金、乙等奖学金、金山助学金，八项竞赛获奖。
+- DED-Net 发表于 *The Visual Computer*（JCR 2 区，IF 3.0，SCI 3 区）。
 - MARS2 2025 现实场景视觉定位（VG-RS）挑战赛第三名。
 - **Post-training:** GRPO, DAPO, SPO, DPO, RLVR, SFT, LoRA.
 - **Engineering:** PyTorch, verl, slime, ms-swift, VLMEvalKit, Three.js.

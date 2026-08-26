@@ -23,5 +23,8 @@ main:
   - title: "Education"
     url: /#education
 
+  - title: "Patents"
+    url: /#patents
+
   - title: "CV"
     url: /files/Dong-Haosen-CV.pdf

@@ -77,6 +77,9 @@ body { color: #303a42; background: #fff; }
   background: #fff;
   box-shadow: 0 6px 24px rgba(26, 62, 88, .06);
 }
+.research-card.has-figure { grid-template-columns: minmax(260px, 38%) minmax(0, 1fr); align-items: center; }
+.research-figure { align-self: stretch; display: grid; place-items: center; min-height: 180px; overflow: hidden; border: 1px solid #e3e9ed; border-radius: 6px; background: #f8fafb; }
+.research-figure img { width: 100%; height: auto; display: block; object-fit: contain; }
 .research-mark {
   min-height: 130px;
   display: grid;
@@ -90,12 +93,16 @@ body { color: #303a42; background: #fff; }
 }
 .research-copy h3 { margin: 6px 0 8px; font-size: 1.08em; line-height: 1.4; }
 .research-copy p { margin: 5px 0; }
+.research-copy .paper-links { margin-top: 12px; font-weight: 800; }
 .research-status { color: #6a7b87; font-size: .78em; font-weight: 700; text-transform: uppercase; letter-spacing: .045em; }
 .metric-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
 .metric-row span { padding: 4px 9px; border-radius: 999px; color: #14557f; background: #e9f4fb; font-size: .78em; font-weight: 700; }
 
-.timeline-item { display: grid; grid-template-columns: 145px minmax(0, 1fr); gap: 24px; padding: 21px 0; border-bottom: 1px solid #e5eaee; }
+.timeline-item { display: grid; grid-template-columns: 145px 92px minmax(0, 1fr); gap: 24px; padding: 24px 0; border-bottom: 1px solid #e5eaee; }
 .timeline-date { color: #667986; font-size: .88em; font-weight: 700; }
+.company-logo { width: 92px; min-height: 76px; display: grid; place-items: center; padding: 9px; overflow: hidden; border: 1px solid #e3e8ec; border-radius: 8px; background: #fff; }
+.company-logo img { width: 100%; height: auto; display: block; object-fit: contain; }
+.company-logo--teleai img { width: 70px; }
 .timeline-item h3 { margin: 0; font-size: 1.08em; }
 .timeline-item .role { margin: 4px 0 8px; color: #657582; }
 .timeline-item ul { margin-top: 8px; }
@@ -106,7 +113,9 @@ body { color: #303a42; background: #fff; }
 @media (max-width: 700px) {
   #main { margin-top: 1.2em; }
   .research-card { grid-template-columns: 1fr; padding: 18px; }
+  .research-card.has-figure { grid-template-columns: 1fr; }
   .research-mark { min-height: 82px; }
   .timeline-item { grid-template-columns: 1fr; gap: 6px; }
+  .company-logo { width: 112px; margin: 8px 0 14px; }
   .contact-panel { align-items: flex-start; flex-direction: column; }
 }
