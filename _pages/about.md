@@ -72,6 +72,28 @@ redirect_from:
   </div>
 </div>
 
+<div class="research-card research-card--concept">
+  <div class="research-monogram research-monogram--skilld"><strong>SkillD</strong><span>Difficulty-Aware<br />Skill-Contrastive RL</span></div>
+  <div class="research-copy">
+    <div class="publication-meta"><span class="venue-badge venue-badge--submission">AAAI</span><span>First Author · Submitted</span></div>
+    <h3>SkillD: Difficulty-Aware Skill-Contrastive Reinforcement Learning for Multi-Step LLM Agents</h3>
+    <p><strong>Haosen Dong</strong> et al.</p>
+    <p>根据近期 rollout 成功率将任务动态路由为困难、中等与简单三类：困难任务强化 Skill 引导探索，中等任务促进技能内化，简单任务使用标准强化学习；同时以 step-level skill influence gap 对关键动作进行对比式优势加权。</p>
+    <div class="metric-row"><span>ALFWorld 86.7</span><span>Search-QA 45.2</span><span>WebShop 69.9</span><span>3B / 7B</span></div>
+  </div>
+</div>
+
+<div class="research-card research-card--concept">
+  <div class="research-monogram research-monogram--skillg"><strong>SkillG</strong><span>Skill-Gap Guided<br />Reinforcement Learning</span></div>
+  <div class="research-copy">
+    <div class="publication-meta"><span class="venue-badge venue-badge--submission">AAAI</span><span>First Author · Submitted</span></div>
+    <h3>SkillG: Skill-Gap Guided Reinforcement Learning for Skill-Free Long-Horizon Language Agents</h3>
+    <p><strong>Haosen Dong</strong> et al.</p>
+    <p>通过同一动作在有 Skill 与无 Skill 上下文中的 token-mean log-probability 差异度量 step-level 依赖，并结合正向 gap 信用分配与“预热—自适应削减—无技能冷却”课程学习，将技能引导探索迁移为无技能执行能力。</p>
+    <div class="metric-row"><span>ALFWorld</span><span>Search-QA</span><span>WebShop</span><span>Skill-Free Evaluation</span></div>
+  </div>
+</div>
+
 <span class="anchor" id="experience"></span>
 
 ## 💻 Experience
