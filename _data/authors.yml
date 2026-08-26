@@ -16,3 +16,14 @@ Name2 Name2:
   avatar      : "bio-photo.jpg"
   twitter     : "name2"
   google_plus : "Name"
+
+haosen_en:
+  name        : "Haosen Dong"
+  bio         : "AI Researcher · Agentic RL"
+  avatar      : "avatar-dhs-2026.png"
+  location    : "Hefei / Beijing"
+  employer    : "Wuhan University → USTC"
+  email       : "haosendong2004@gmail.com"
+  phone       : "15623287592"
+  wechat      : "15623287592"
+  github      : "Dhs2004"

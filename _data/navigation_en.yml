@@ -1,0 +1,24 @@
+main:
+  - title: "About"
+    url: /en/#about
+
+  - title: "News"
+    url: /en/#news
+
+  - title: "Research"
+    url: /en/#research
+
+  - title: "Experience"
+    url: /en/#experience
+
+  - title: "Education"
+    url: /en/#education
+
+  - title: "Patents"
+    url: /en/#patents
+
+  - title: "Support"
+    url: /en/#support
+
+  - title: "中文"
+    url: /
