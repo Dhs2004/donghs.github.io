@@ -207,6 +207,7 @@ body {
 
 .contact-panel { margin-top: 3.2em; padding: 30px 34px; display: flex; align-items: center; justify-content: space-between; gap: 30px; overflow: hidden; border-radius: 18px; color: #fff; background: linear-gradient(125deg, #143c58, #1f6d82); box-shadow: 0 18px 38px rgba(17, 63, 92, .17); }
 .contact-panel a { color: #fff; font-weight: 750; }
+.contact-panel > div:last-child { line-height: 1.8; text-align: right; }
 
 @media (min-width: 1024px) {
   .sidebar { position: sticky; top: 94px; }
@@ -246,4 +247,5 @@ body {
   .timeline-item .role { font-size: .78em; line-height: 1.55; }
   .timeline-item .mentor { font-size: .74em; line-height: 1.5; }
   .contact-panel { align-items: flex-start; flex-direction: column; padding: 25px; }
+  .contact-panel > div:last-child { text-align: left; }
 }

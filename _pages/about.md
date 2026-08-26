@@ -151,5 +151,5 @@ redirect_from:
 
 <div class="contact-panel">
   <div><strong>Let&apos;s build agents that learn.</strong><br />欢迎交流大模型后训练、Agent RL 与多模态研究。</div>
-  <div><a href="mailto:haosendong2004@gmail.com">Email</a> · <a href="https://github.com/Dhs2004">GitHub</a></div>
+  <div><a href="mailto:haosendong2004@gmail.com">Email</a> · <a href="tel:15623287592">电话</a> · 微信同号：15623287592 · <a href="https://github.com/Dhs2004">GitHub</a></div>
 </div>
