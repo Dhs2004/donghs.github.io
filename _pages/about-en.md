@@ -1,10 +1,14 @@
 ---
-permalink: /en/
+permalink: /
 title: ""
 excerpt: "Haosen Dong's academic homepage"
 author_profile: true
 author: haosen_en
 lang: en
+redirect_from:
+  - /en/
+  - /about/
+  - /about.html
 ---
 
 <span class="anchor" id="about"></span>

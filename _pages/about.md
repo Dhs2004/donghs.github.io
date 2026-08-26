@@ -1,11 +1,8 @@
 ---
-permalink: /
+permalink: /zh/
 title: ""
 excerpt: "董浩森的学术主页"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
 <span class="anchor" id="about"></span>

@@ -11,7 +11,7 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/{% if page.lang == 'en' %}en/{% endif %}">{% if page.lang == "en" %}Haosen Dong{% else %}{{ site.title }}{% endif %}</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/{% unless page.lang == 'en' %}zh/{% endunless %}">{% if page.lang == "en" %}Haosen Dong{% else %}{{ site.title }}{% endif %}</a></li>
           {% for link in navigation_links %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}

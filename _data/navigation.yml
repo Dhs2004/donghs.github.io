@@ -9,25 +9,25 @@
 
 main:
   - title: "About"
-    url: /#about
+    url: /zh/#about
 
   - title: "News"
-    url: /#news
+    url: /zh/#news
 
   - title: "Research"
-    url: /#research
+    url: /zh/#research
 
   - title: "Experience"
-    url: /#experience
+    url: /zh/#experience
 
   - title: "Education"
-    url: /#education
+    url: /zh/#education
 
   - title: "Patents"
-    url: /#patents
+    url: /zh/#patents
 
   - title: "打赏"
-    url: /#support
+    url: /zh/#support
 
   - title: "EN"
-    url: /en/
+    url: /
