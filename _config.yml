@@ -23,7 +23,7 @@ repository               : "Dhs2004/donghs.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "dong-haosen.png"
+  avatar           : "avatar-dhs-2026.png"
   name             : "董浩森"
   pronouns         : # example: "she/her"  
   bio              : "算法工程师 · Agentic RL"

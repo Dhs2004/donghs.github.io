@@ -10,6 +10,21 @@ redirect_from:
 
 <span class="anchor" id="about"></span>
 
+<section class="intro-hero">
+  <p class="intro-kicker">AGENTIC RL · MULTIMODAL INTELLIGENCE · 3D GENERATION</p>
+  <h1>让智能体在真实世界中<br /><span>学会推理、行动与创造。</span></h1>
+  <p class="intro-lead">我是董浩森，一名专注于大模型后训练与多模态智能体的算法研究者。</p>
+  <div class="intro-actions">
+    <a class="intro-button intro-button--primary" href="mailto:haosendong2004@gmail.com">与我联系</a>
+    <a class="intro-button" href="{{ site.baseurl }}/files/Dong-Haosen-CV.pdf">查看简历</a>
+  </div>
+  <div class="intro-facts">
+    <span><strong>USTC</strong> 2026 硕士</span>
+    <span><strong>WHU</strong> Top 3%</span>
+    <span><strong>ByteDance</strong> 算法实习</span>
+  </div>
+</section>
+
 ## About Me
 
 你好，我是 **董浩森（Haosen Dong）**，目前在字节跳动抖音直播部门担任大模型算法实习生，即将进入[中国科学技术大学](https://www.ustc.edu.cn/)计算机学院攻读电子信息专业。此前，我在[武汉大学](https://www.whu.edu.cn/)计算机学院获得计算机科学与技术学士学位，GPA **3.91/4.00（Top 3%）**。
@@ -35,7 +50,7 @@ redirect_from:
 <div class="research-card has-figure">
   <div class="research-figure"><img src="{{ site.baseurl }}/images/ded-net-method.png" alt="DED-Net 方法流程图" loading="lazy" /></div>
   <div class="research-copy">
-    <span class="research-status">Co-first Author · The Visual Computer 41, 9243–9255 (2025)</span>
+    <div class="publication-meta"><span class="venue-badge">The Visual Computer</span><span>First Author · 2025</span></div>
     <h3>DED-Net: Multi-Scale Fusion and Illumination-Guided Enhancement for Low-Light Image Restoration</h3>
     <p><strong>Haosen Dong</strong>, Shihao Cheng, Tianyou Fang, Jin Chen, Zhigang Tu</p>
     <p>以多尺度图像特征增强模块估计光照信息，并通过照明引导恢复模块建模不同照明区域间的非局部交互，在控制计算成本的同时提升低光图像的细节恢复质量。</p>
@@ -47,43 +62,12 @@ redirect_from:
 <div class="research-card has-figure">
   <div class="research-figure"><img src="{{ site.baseurl }}/images/deppo-method.png" alt="DEPPO 双经验池策略优化方法总览图" loading="lazy" /></div>
   <div class="research-copy">
-    <span class="research-status">First Author · EMNLP 2026 Submission</span>
+    <div class="publication-meta"><span class="venue-badge venue-badge--accepted">EMNLP 2026 Main Conference</span><span>First Author · Accepted</span></div>
     <h3>DEPPO: Dual Experience Pool Policy Optimization for Long-Horizon Agentic RL</h3>
     <p><strong>董浩森</strong> 等</p>
     <p>提出成功/失败双经验池，在无需 Critic 或过程监督的情况下进行 step-level 信用分配。在 Qwen2.5-7B 上，ALFWorld 平均成功率达到 <strong>95.7%</strong>，WebShop Score/Success 达到 <strong>90.1/84.3</strong>。</p>
     <p class="paper-links"><a href="{{ site.baseurl }}/files/DEPPO.pdf">Paper</a></p>
     <div class="metric-row"><span>ALFWorld 95.7</span><span>WebShop +9.1</span><span>OA 3.5 · Meta 3.5</span></div>
-  </div>
-</div>
-
-<div class="research-card">
-  <div class="research-mark">SVO</div>
-  <div class="research-copy">
-    <span class="research-status">First Author · EMNLP 2026 Submission</span>
-    <h3>SVO: Consistency-aware RLVR for Multimodal Reasoning</h3>
-    <p><strong>董浩森</strong> 等</p>
-    <p>针对传统 RLVR 只奖励最终答案、推理过程可能与答案不一致的问题，引入推理—答案一致性约束，缓解 shortcut reasoning。</p>
-    <div class="metric-row"><span>一致性 +20%</span><span>约束准确率 +8%</span><span>OA 3.33 · Meta 3</span></div>
-  </div>
-</div>
-
-<div class="research-card">
-  <div class="research-mark">SkillD</div>
-  <div class="research-copy">
-    <span class="research-status">First Author · AAAI 2027 Submission</span>
-    <h3>Difficulty-aware Skill-contrastive Reinforcement Learning for Multi-step Agents</h3>
-    <p><strong>董浩森</strong> 等</p>
-    <p>按任务成功率划分难度，自适应使用外部 Skill 引导探索，并通过技能条件与无技能策略的对比优势定位关键步骤，提升训练稳定性、样本效率与泛化能力。</p>
-  </div>
-</div>
-
-<div class="research-card">
-  <div class="research-mark">SkillG</div>
-  <div class="research-copy">
-    <span class="research-status">First Author · AAAI 2027 Pre-submission</span>
-    <h3>Skill Internalization under Sparse Rewards</h3>
-    <p><strong>董浩森</strong> 等</p>
-    <p>通过技能预热、依赖感知课程学习与无技能冷却，将外部技能提示逐步内化为 Agent 的独立执行能力。</p>
   </div>
 </div>
 
