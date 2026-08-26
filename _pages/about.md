@@ -72,8 +72,8 @@ redirect_from:
   </div>
 </div>
 
-<div class="research-card research-card--concept">
-  <div class="research-monogram research-monogram--skilld"><strong>SkillD</strong><span>Difficulty-Aware<br />Skill-Contrastive RL</span></div>
+<div class="research-card has-figure">
+  <div class="research-figure"><img src="{{ site.baseurl }}/images/skilld-method.png" alt="SkillD 难度感知技能对比强化学习方法图" loading="lazy" /></div>
   <div class="research-copy">
     <div class="publication-meta"><span class="venue-badge venue-badge--submission">AAAI</span><span>First Author · Submitted</span></div>
     <h3>SkillD: Difficulty-Aware Skill-Contrastive Reinforcement Learning for Multi-Step LLM Agents</h3>
@@ -83,8 +83,8 @@ redirect_from:
   </div>
 </div>
 
-<div class="research-card research-card--concept">
-  <div class="research-monogram research-monogram--skillg"><strong>SkillG</strong><span>Skill-Gap Guided<br />Reinforcement Learning</span></div>
+<div class="research-card has-figure">
+  <div class="research-figure"><img src="{{ site.baseurl }}/images/skillg-method.png" alt="SkillG Skill-Gap 引导强化学习方法图" loading="lazy" /></div>
   <div class="research-copy">
     <div class="publication-meta"><span class="venue-badge venue-badge--submission">AAAI</span><span>First Author · Submitted</span></div>
     <h3>SkillG: Skill-Gap Guided Reinforcement Learning for Skill-Free Long-Horizon Language Agents</h3>

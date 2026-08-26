@@ -180,12 +180,6 @@ body {
 .venue-badge--submission { background: #586879; }
 .metric-row { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
 .metric-row span { padding: 5px 9px; border: 1px solid #dcebed; border-radius: 999px; color: #2e6c76; background: #f2f9f9; font-size: .74em; font-weight: 750; }
-.research-card--concept { grid-template-columns: 190px minmax(0, 1fr); align-items: stretch; }
-.research-monogram { display: flex; min-height: 220px; align-items: center; justify-content: center; flex-direction: column; padding: 24px 18px; overflow: hidden; border-radius: 13px; color: #fff; text-align: center; }
-.research-monogram strong { font-family: Georgia, "Times New Roman", serif; font-size: 2em; letter-spacing: -.03em; }
-.research-monogram span { margin-top: 10px; color: rgba(255, 255, 255, .76); font-size: .67em; font-weight: 750; line-height: 1.55; letter-spacing: .06em; text-transform: uppercase; }
-.research-monogram--skilld { background: radial-gradient(circle at 80% 15%, rgba(242, 180, 91, .4), transparent 28%), linear-gradient(145deg, #264f68, #132f43); }
-.research-monogram--skillg { background: radial-gradient(circle at 20% 80%, rgba(105, 184, 176, .38), transparent 30%), linear-gradient(145deg, #315b56, #173b40); }
 
 .timeline-item {
   position: relative;
@@ -222,7 +216,6 @@ body {
   .intro-hero { padding: 42px 38px 36px; }
   .intro-hero h1 { font-size: 2.05em; }
   .research-card { grid-template-columns: 1fr; }
-  .research-card--concept { grid-template-columns: 160px minmax(0, 1fr); }
   .research-figure { min-height: 240px; }
   .research-copy { padding: 5px 8px 10px; }
   .experience-header { grid-template-columns: 88px minmax(0, 1fr); grid-template-areas: "logo heading" "logo date"; gap: 9px 17px; }
@@ -240,8 +233,6 @@ body {
   .intro-lead { font-size: .94em !important; }
   .intro-facts { gap: 9px 17px; }
   .research-card { gap: 16px; padding: 13px; border-radius: 15px; }
-  .research-card--concept { grid-template-columns: 1fr; }
-  .research-monogram { min-height: 125px; }
   .research-card:hover { transform: none; }
   .research-figure { min-height: 190px; border-radius: 10px; }
   .research-copy h3 { font-size: 1.04em; }
