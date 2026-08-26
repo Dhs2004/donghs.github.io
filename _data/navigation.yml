@@ -8,26 +8,20 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "About"
+    url: /#about
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "News"
+    url: /#news
 
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Portfolio"
-    url: /portfolio/
-        
-  - title: "Blog Posts"
-    url: /year-archive/
-    
+  - title: "Research"
+    url: /#research
+
+  - title: "Experience"
+    url: /#experience
+
+  - title: "Education"
+    url: /#education
+
   - title: "CV"
-    url: /cv/
-    
-  # - title: "CV"
-  #   url: /cv-json/
-    
-  - title: "Guide"
-    url: /markdown/
+    url: /files/Dong-Haosen-CV.pdf
