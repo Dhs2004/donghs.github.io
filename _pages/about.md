@@ -153,3 +153,21 @@ redirect_from:
   <div><strong>Let&apos;s build agents that learn.</strong><br />欢迎交流大模型后训练、Agent RL 与多模态研究。</div>
   <div><a href="mailto:haosendong2004@gmail.com">Email</a> · <a href="tel:15623287592">电话</a> · 微信同号：15623287592 · <a href="https://github.com/Dhs2004">GitHub</a></div>
 </div>
+
+<span class="anchor" id="support"></span>
+<div class="support-row"><button class="tip-button" type="button" onclick="document.getElementById('tip-dialog').showModal()">打赏支持</button></div>
+
+<dialog class="tip-dialog" id="tip-dialog">
+  <button class="tip-close" type="button" aria-label="关闭" onclick="document.getElementById('tip-dialog').close()">×</button>
+  <img src="{{ site.baseurl }}/images/wechat-tip.jpg" alt="微信支付打赏二维码" />
+</dialog>
+
+<script>
+  (function () {
+    var dialog = document.getElementById('tip-dialog');
+    if (!dialog) return;
+    dialog.addEventListener('click', function (event) {
+      if (event.target === dialog) dialog.close();
+    });
+  })();
+</script>

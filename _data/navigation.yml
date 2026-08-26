@@ -25,3 +25,6 @@ main:
 
   - title: "Patents"
     url: /#patents
+
+  - title: "打赏"
+    url: /#support
