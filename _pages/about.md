@@ -78,7 +78,8 @@ redirect_from:
 <div class="timeline-item">
   <div class="experience-header">
     <div class="company-logo company-logo--bytedance"><img src="{{ site.baseurl }}/images/bytedance-logo.png" alt="字节跳动 ByteDance Logo" loading="lazy" /></div>
-    <div class="experience-heading"><div class="timeline-date">2026.06 — 至今</div><h3>字节跳动 · 抖音直播部门</h3><p class="role">大模型算法实习生 · 北京 · 指导老师：邓诗弘老师</p></div>
+    <div class="experience-heading"><h3>字节跳动 · 抖音直播部门</h3><p class="role">大模型算法实习生 · 北京</p><p class="mentor">指导老师：邓诗弘老师</p></div>
+    <div class="timeline-date">2026.06 — 至今</div>
   </div>
   <ul>
     <li><strong>多模态 4D 拆件：</strong>完成 GLB 清洗、多视图渲染、Tree/Schema、3D BBox 与 CoT 生成，构建 17 万条训练数据；在 SeedLite 与 Qwen3.6-35B-A3B 上完成 LoRA / 全量 SFT。</li>
@@ -90,7 +91,8 @@ redirect_from:
 <div class="timeline-item">
   <div class="experience-header">
     <div class="company-logo company-logo--teleai"><img src="{{ site.baseurl }}/images/teleai-logo.jpg" alt="中国电信人工智能研究院 TeleAI Logo" loading="lazy" /></div>
-    <div class="experience-heading"><div class="timeline-date">2025.08 — 2026.06</div><h3>中国电信人工智能研究院（TeleAI）</h3><p class="role">VLM 算法实习生 · 视觉理解研发中心 · 上海 · 指导老师：孙皓老师、贾梦溪老师</p></div>
+    <div class="experience-heading"><h3>中国电信人工智能研究院（TeleAI）</h3><p class="role">VLM 算法实习生 · 视觉理解研发中心 · 上海</p><p class="mentor">指导老师：孙皓老师、贾梦溪老师</p></div>
+    <div class="timeline-date">2025.08 — 2026.06</div>
   </div>
   <ul>
     <li><strong>TeleMM-2.0-Thinking：</strong>参与八个版本的 RL 训练迭代，实现 verl / ms-swift 训练支持和 VLMEvalKit 测评，构建 10 万条 RLVR 可验证数据。</li>

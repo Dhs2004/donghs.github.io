@@ -181,23 +181,26 @@ body {
 .metric-row span { padding: 5px 9px; border: 1px solid #dcebed; border-radius: 999px; color: #2e6c76; background: #f2f9f9; font-size: .74em; font-weight: 750; }
 
 .timeline-item {
+  position: relative;
   margin-bottom: 18px;
-  padding: 27px 30px 25px;
+  padding: 26px 30px 24px 34px;
+  overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 17px;
   background: #fff;
   box-shadow: 0 9px 26px rgba(20, 52, 70, .045);
 }
-.experience-header { display: flex; align-items: center; gap: 22px; padding-bottom: 18px; border-bottom: 1px solid #edf0f1; }
-.experience-heading { min-width: 0; flex: 1; }
-.timeline-date { display: inline-flex; margin-bottom: 6px; padding: 4px 9px; border-radius: 999px; color: #5e7481; background: #f0f5f6; font-size: .72em; font-weight: 800; letter-spacing: .025em; }
-.company-logo { width: 126px; height: 82px; display: grid; flex: 0 0 126px; place-items: center; padding: 11px 13px; overflow: hidden; border: 1px solid #e5eaec; border-radius: 14px; background: #fff; box-shadow: 0 6px 16px rgba(20, 52, 70, .055); }
-.company-logo img { display: block; width: 100%; height: 100%; object-fit: contain; }
-.company-logo--bytedance img { width: 112px; }
-.company-logo--teleai { width: 82px; flex-basis: 82px; }
-.company-logo--teleai img { width: 58px; }
+.timeline-item:before { position: absolute; top: 0; bottom: 0; left: 0; width: 4px; background: linear-gradient(180deg, var(--amber), #66aab5); content: ""; }
+.experience-header { display: grid; grid-template-columns: 100px minmax(0, 1fr) auto; grid-template-areas: "logo heading date"; align-items: center; gap: 20px; padding-bottom: 19px; border-bottom: 1px solid #edf0f1; }
+.experience-heading { grid-area: heading; min-width: 0; }
+.timeline-date { grid-area: date; align-self: start; display: inline-flex; white-space: nowrap; padding: 5px 10px; border: 1px solid #e1e9eb; border-radius: 999px; color: #58717e; background: #f5f8f8; font-size: .71em; font-weight: 800; letter-spacing: .025em; }
+.company-logo { grid-area: logo; width: 100px; height: 76px; display: grid; place-items: center; padding: 8px; overflow: hidden; border: 1px solid #e2e8ea; border-radius: 14px; background: linear-gradient(145deg, #fff, #f7f9f9); box-shadow: 0 6px 16px rgba(20, 52, 70, .055); }
+.company-logo img { display: block; object-fit: contain; }
+.company-logo--bytedance img { width: 138px; max-width: none; transform: scale(1.24); }
+.company-logo--teleai img { width: 60px; height: 60px; border-radius: 50%; }
 .timeline-item h3 { margin: 0; font-size: 1.08em; }
-.timeline-item .role { margin: 4px 0 0; color: #75818a; font-size: .87em; }
+.timeline-item .role { margin: 5px 0 0; color: #60727d; font-size: .87em; font-weight: 650; }
+.timeline-item .mentor { margin: 3px 0 0; color: #89949b; font-size: .8em; }
 .timeline-item ul { margin: 18px 0 0; padding-left: 1.25em; }
 .timeline-item li { margin-bottom: 7px; color: #4d5e69; }
 
@@ -214,8 +217,9 @@ body {
   .research-card { grid-template-columns: 1fr; }
   .research-figure { min-height: 240px; }
   .research-copy { padding: 5px 8px 10px; }
-  .company-logo { width: 108px; flex-basis: 108px; }
-  .company-logo--teleai { width: 76px; flex-basis: 76px; }
+  .experience-header { grid-template-columns: 88px minmax(0, 1fr); grid-template-areas: "logo heading" "logo date"; gap: 9px 17px; }
+  .company-logo { width: 88px; height: 72px; }
+  .timeline-date { align-self: end; justify-self: start; }
 }
 
 @media (max-width: 700px) {
@@ -231,12 +235,14 @@ body {
   .research-card:hover { transform: none; }
   .research-figure { min-height: 190px; border-radius: 10px; }
   .research-copy h3 { font-size: 1.04em; }
-  .timeline-item { padding: 18px; }
-  .experience-header { align-items: flex-start; gap: 14px; padding-bottom: 15px; }
-  .company-logo { width: 82px; height: 68px; flex-basis: 82px; padding: 8px; }
-  .company-logo--teleai { width: 68px; flex-basis: 68px; }
-  .company-logo--teleai img { width: 50px; }
+  .timeline-item { padding: 18px 18px 18px 22px; }
+  .experience-header { grid-template-columns: 70px minmax(0, 1fr); grid-template-areas: "logo heading" "date date"; gap: 11px 13px; padding-bottom: 15px; }
+  .company-logo { width: 70px; height: 64px; padding: 6px; }
+  .company-logo--bytedance img { width: 103px; }
+  .company-logo--teleai img { width: 52px; height: 52px; }
+  .timeline-date { align-self: auto; justify-self: start; }
   .timeline-item h3 { font-size: .98em; }
   .timeline-item .role { font-size: .78em; line-height: 1.55; }
+  .timeline-item .mentor { font-size: .74em; line-height: 1.5; }
   .contact-panel { align-items: flex-start; flex-direction: column; padding: 25px; }
 }
