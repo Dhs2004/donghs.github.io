@@ -16,10 +16,10 @@ redirect_from:
   <p class="intro-lead">我是董浩森，一名专注于大模型后训练与多模态智能体的算法研究者。</p>
   <div class="intro-actions">
     <a class="intro-button intro-button--primary" href="mailto:haosendong2004@gmail.com">与我联系</a>
-    <a class="intro-button" href="{{ site.baseurl }}/files/Dong-Haosen-CV.pdf">查看简历</a>
+    <a class="intro-button" href="https://github.com/Dhs2004">GitHub</a>
   </div>
   <div class="intro-facts">
-    <span><strong>USTC</strong> 2026 硕士</span>
+    <span><strong>USTC</strong> 2026 直博</span>
     <span><strong>WHU</strong> Top 3%</span>
     <span><strong>ByteDance</strong> 算法实习</span>
   </div>
@@ -27,11 +27,11 @@ redirect_from:
 
 ## About Me
 
-你好，我是 **董浩森（Haosen Dong）**，目前在字节跳动抖音直播部门担任大模型算法实习生，即将进入[中国科学技术大学](https://www.ustc.edu.cn/)计算机学院攻读电子信息专业。此前，我在[武汉大学](https://www.whu.edu.cn/)计算机学院获得计算机科学与技术学士学位，GPA **3.91/4.00（Top 3%）**。
+你好，我是 **董浩森（Haosen Dong）**，目前在字节跳动抖音直播部门担任大模型算法实习生，即将进入[中国科学技术大学](https://www.ustc.edu.cn/)计算机学院攻读电子信息专业博士学位（直博）。此前，我在[武汉大学](https://www.whu.edu.cn/)计算机学院获得计算机科学与技术学士学位，GPA **3.91/4.00（Top 3%）**。
 
 我的研究兴趣集中在 **Agentic Reinforcement Learning、Multimodal Large Language Models 和 3D Generation**。我尤其关注稀疏奖励下的长程信用分配、外部技能内化、多模态推理一致性，以及如何构造真正符合人类偏好的奖励信号。
 
-我正在寻找大模型后训练、Agent RL 与多模态方向的研究和工程机会。欢迎通过 [Email](mailto:haosendong2004@gmail.com) 与我交流，也可以查看我的 [GitHub](https://github.com/Dhs2004) 或[下载完整简历]({{ site.baseurl }}/files/Dong-Haosen-CV.pdf)。
+我正在寻找大模型后训练、Agent RL 与多模态方向的研究和工程机会。欢迎通过 [Email](mailto:haosendong2004@gmail.com) 与我交流，也可以查看我的 [GitHub](https://github.com/Dhs2004)。
 
 <span class="anchor" id="news"></span>
 
@@ -76,32 +76,34 @@ redirect_from:
 ## 💻 Experience
 
 <div class="timeline-item">
-  <div class="timeline-date">2026.06 — 至今</div>
-  <div class="company-logo"><img src="{{ site.baseurl }}/images/bytedance-logo.png" alt="字节跳动 ByteDance Logo" loading="lazy" /></div>
-  <div><h3>字节跳动 · 抖音直播部门</h3><p class="role">大模型算法实习生 · 北京 · 指导老师：邓诗弘老师</p>
+  <div class="experience-header">
+    <div class="company-logo company-logo--bytedance"><img src="{{ site.baseurl }}/images/bytedance-logo.png" alt="字节跳动 ByteDance Logo" loading="lazy" /></div>
+    <div class="experience-heading"><div class="timeline-date">2026.06 — 至今</div><h3>字节跳动 · 抖音直播部门</h3><p class="role">大模型算法实习生 · 北京 · 指导老师：邓诗弘老师</p></div>
+  </div>
   <ul>
     <li><strong>多模态 4D 拆件：</strong>完成 GLB 清洗、多视图渲染、Tree/Schema、3D BBox 与 CoT 生成，构建 17 万条训练数据；在 SeedLite 与 Qwen3.6-35B-A3B 上完成 LoRA / 全量 SFT。</li>
     <li><strong>3D 奖励模型：</strong>构建 1,299 个模组、5,196 条正负均衡数据，覆盖悬浮断连、几何渲染、穿插嵌入及比例姿态四类问题。</li>
     <li><strong>质量评测：</strong>搭建融合八视图渲染和 Three.js 源码证据的 LLM-as-Judge 管线，支持 RL/DPO 奖励信号与数据过滤。</li>
-  </ul></div>
+  </ul>
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-date">2025.08 — 2026.06</div>
-  <div class="company-logo company-logo--teleai"><img src="{{ site.baseurl }}/images/teleai-logo.jpg" alt="中国电信人工智能研究院 TeleAI Logo" loading="lazy" /></div>
-  <div><h3>中国电信人工智能研究院（TeleAI）</h3><p class="role">VLM 算法实习生 · 视觉理解研发中心 · 上海 · 指导老师：孙皓老师、贾梦溪老师</p>
+  <div class="experience-header">
+    <div class="company-logo company-logo--teleai"><img src="{{ site.baseurl }}/images/teleai-logo.jpg" alt="中国电信人工智能研究院 TeleAI Logo" loading="lazy" /></div>
+    <div class="experience-heading"><div class="timeline-date">2025.08 — 2026.06</div><h3>中国电信人工智能研究院（TeleAI）</h3><p class="role">VLM 算法实习生 · 视觉理解研发中心 · 上海 · 指导老师：孙皓老师、贾梦溪老师</p></div>
+  </div>
   <ul>
     <li><strong>TeleMM-2.0-Thinking：</strong>参与八个版本的 RL 训练迭代，实现 verl / ms-swift 训练支持和 VLMEvalKit 测评，构建 10 万条 RLVR 可验证数据。</li>
     <li><strong>视觉 Grounding：</strong>负责基于 GRPO 的训练实现，并为 DenseFusion-1M、LLaVA91M 构建细粒度区域—文本数据。</li>
     <li><strong>Agent 训练：</strong>将 ALFWorld、WebShop、Sokoban、AndroidWorld 等九类环境接入 slime，并提出 DEPPO。</li>
-  </ul></div>
+  </ul>
 </div>
 
 <span class="anchor" id="education"></span>
 
 ## 📖 Education
 
-- **2026.09 — 预计入学**，中国科学技术大学，计算机学院，电子信息，合肥。
+- **2026.09 — 预计入学**，中国科学技术大学，计算机学院，电子信息直博，合肥。
 - **2022.09 — 2026.06**，武汉大学，计算机学院，计算机科学与技术，武汉。
   - GPA 3.91/4.00，专业 Top 3%。
   - 国家奖学金、甲等奖学金、乙等奖学金、金山助学金。
@@ -124,5 +126,5 @@ redirect_from:
 
 <div class="contact-panel">
   <div><strong>Let&apos;s build agents that learn.</strong><br />欢迎交流大模型后训练、Agent RL 与多模态研究。</div>
-  <div><a href="mailto:haosendong2004@gmail.com">Email</a> · <a href="https://github.com/Dhs2004">GitHub</a> · <a href="{{ site.baseurl }}/files/Dong-Haosen-CV.pdf">CV</a></div>
+  <div><a href="mailto:haosendong2004@gmail.com">Email</a> · <a href="https://github.com/Dhs2004">GitHub</a></div>
 </div>
