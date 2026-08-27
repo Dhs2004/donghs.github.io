@@ -159,7 +159,10 @@ I am open to research and engineering collaborations in post-training, Agent RL,
 </div>
 
 <span class="anchor" id="support"></span>
-<div class="support-row"><button class="tip-button" type="button" onclick="document.getElementById('tip-dialog-en').showModal()">Support My Work</button></div>
+<div class="support-row">
+  <span class="page-view-counter" id="vercount_container_page_pv"><span class="counter-dot" aria-hidden="true"></span> Page views <strong id="vercount_value_page_pv">—</strong></span>
+  <button class="tip-button" type="button" onclick="document.getElementById('tip-dialog-en').showModal()">Support My Work</button>
+</div>
 
 <dialog class="tip-dialog" id="tip-dialog-en">
   <button class="tip-close" type="button" aria-label="Close" onclick="document.getElementById('tip-dialog-en').close()">×</button>
