@@ -134,6 +134,7 @@ I am open to research and engineering collaborations in post-training, Agent RL,
 
 - **Sep 2026 — Incoming**, University of Science and Technology of China, School of Computer Science and Technology, direct-entry Ph.D. in Electronic Information, Hefei.
 - **Sep 2022 — Jun 2026**, Wuhan University, School of Computer Science, B.Eng. in Computer Science and Technology, Wuhan.
+  - Mentored by Prof. Zhigang Tu.
   - GPA 3.91/4.00, Top 3%.
   - National Scholarship, First-Class Scholarship, Second-Class Scholarship, and Kingsoft Scholarship.
 
