@@ -126,10 +126,27 @@ author_profile: true
 
 ## 📖 Education
 
-- **2026.09 — 预计入学**，中国科学技术大学，计算机学院，电子信息直博，合肥。
-- **2022.09 — 2026.06**，武汉大学，计算机学院，计算机科学与技术，武汉。
-  - GPA 3.91/4.00，专业 Top 3%。
-  - 国家奖学金、甲等奖学金、乙等奖学金、金山助学金。
+<div class="education-stack">
+  <article class="education-card">
+    <a class="education-brand education-brand--ustc" href="https://www.ustc.edu.cn/" aria-label="访问中国科学技术大学官网"><img src="{{ site.baseurl }}/images/ustc-logo.png" alt="中国科学技术大学 Logo" loading="lazy" /></a>
+    <div class="education-copy">
+      <div class="education-date">2026.09 — 预计入学</div>
+      <h3>中国科学技术大学</h3>
+      <p class="education-degree">计算机学院 · 电子信息 · 直博</p>
+      <div class="metric-row"><span>Direct Ph.D.</span><span>合肥</span></div>
+    </div>
+  </article>
+  <article class="education-card">
+    <a class="education-brand education-brand--whu" href="https://www.whu.edu.cn/" aria-label="访问武汉大学官网"><img src="{{ site.baseurl }}/images/whu-logo.png" alt="武汉大学 Logo" loading="lazy" /></a>
+    <div class="education-copy">
+      <div class="education-date">2022.09 — 2026.06</div>
+      <h3>武汉大学</h3>
+      <p class="education-degree">计算机学院 · 计算机科学与技术 · 工学学士</p>
+      <div class="metric-row"><span>GPA 3.91 / 4.00</span><span>专业 Top 3%</span></div>
+      <p class="education-honors">国家奖学金 · 甲等奖学金 · 乙等奖学金 · 金山助学金</p>
+    </div>
+  </article>
+</div>
 
 <span class="anchor" id="patents"></span>
 

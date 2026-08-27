@@ -196,6 +196,20 @@ body {
 .metric-row { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 14px; }
 .metric-row span { padding: 5px 9px; border: 1px solid #dcebed; border-radius: 999px; color: #2e6c76; background: #f2f9f9; font-size: .74em; font-weight: 750; }
 
+.education-stack { display: grid; gap: 16px; }
+.education-card { display: grid; grid-template-columns: 190px minmax(0, 1fr); align-items: center; gap: 27px; padding: 22px; border: 1px solid var(--line); border-radius: 18px; background: #fff; box-shadow: 0 10px 30px rgba(20, 52, 70, .055); }
+.education-brand { display: grid; min-height: 116px; place-items: center; padding: 18px 15px; overflow: hidden; border-radius: 14px; transition: transform .2s ease, box-shadow .2s ease; }
+.education-brand:hover { transform: translateY(-2px); box-shadow: 0 10px 22px rgba(20, 52, 70, .12); }
+.education-brand img { display: block; width: 100%; height: auto; max-height: 82px; object-fit: contain; }
+.education-brand--ustc { border: 1px solid #dfe8f2; background: linear-gradient(145deg, #fff, #f1f6fb); }
+.education-brand--whu { border: 1px solid rgba(255, 255, 255, .08); background: linear-gradient(145deg, #173d67, #082a4f); }
+.education-brand--whu img { width: 164px; }
+.education-copy { min-width: 0; }
+.education-date { display: inline-flex; margin-bottom: 7px; padding: 4px 9px; border-radius: 999px; color: #556c7b; background: #f0f4f6; font-size: .72em; font-weight: 800; }
+.education-copy h3 { margin: 0; color: var(--blue-dark); font-size: 1.12em; line-height: 1.4; }
+.education-degree { margin: 5px 0 0 !important; color: #60717b; font-size: .87em !important; line-height: 1.55; }
+.education-honors { margin: 12px 0 0 !important; color: #8a6b43; font-size: .76em !important; font-weight: 700; }
+
 .timeline-item {
   position: relative;
   margin-bottom: 18px;
@@ -266,6 +280,10 @@ body {
   .research-card:hover { transform: none; }
   .research-figure { min-height: 190px; border-radius: 10px; }
   .research-copy h3 { font-size: 1.04em; }
+  .education-card { grid-template-columns: 1fr; gap: 16px; padding: 17px; }
+  .education-brand { min-height: 96px; padding: 14px 18px; }
+  .education-brand img { max-width: 280px; }
+  .education-brand--whu img { width: 210px; }
   .timeline-item { padding: 18px 18px 18px 22px; }
   .experience-header { grid-template-columns: 70px minmax(0, 1fr); grid-template-areas: "logo heading" "date date"; gap: 11px 13px; padding-bottom: 15px; }
   .company-logo { width: 70px; height: 64px; padding: 6px; }

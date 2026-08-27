@@ -132,10 +132,27 @@ I am open to research and engineering collaborations in post-training, Agent RL,
 
 ## 📖 Education
 
-- **Sep 2026 — Incoming**, University of Science and Technology of China, School of Computer Science and Technology, direct-entry Ph.D. in Electronic Information, Hefei.
-- **Sep 2022 — Jun 2026**, Wuhan University, School of Computer Science, B.Eng. in Computer Science and Technology, Wuhan.
-  - GPA 3.91/4.00, Top 3%.
-  - National Scholarship, First-Class Scholarship, Second-Class Scholarship, and Kingsoft Scholarship.
+<div class="education-stack">
+  <article class="education-card">
+    <a class="education-brand education-brand--ustc" href="https://www.ustc.edu.cn/" aria-label="Visit the University of Science and Technology of China website"><img src="{{ site.baseurl }}/images/ustc-logo.png" alt="University of Science and Technology of China logo" loading="lazy" /></a>
+    <div class="education-copy">
+      <div class="education-date">Sep 2026 — Incoming</div>
+      <h3>University of Science and Technology of China</h3>
+      <p class="education-degree">School of Computer Science and Technology · Direct-entry Ph.D. in Electronic Information</p>
+      <div class="metric-row"><span>Direct Ph.D.</span><span>Hefei</span></div>
+    </div>
+  </article>
+  <article class="education-card">
+    <a class="education-brand education-brand--whu" href="https://www.whu.edu.cn/" aria-label="Visit the Wuhan University website"><img src="{{ site.baseurl }}/images/whu-logo.png" alt="Wuhan University logo" loading="lazy" /></a>
+    <div class="education-copy">
+      <div class="education-date">Sep 2022 — Jun 2026</div>
+      <h3>Wuhan University</h3>
+      <p class="education-degree">School of Computer Science · B.Eng. in Computer Science and Technology</p>
+      <div class="metric-row"><span>GPA 3.91 / 4.00</span><span>Top 3%</span></div>
+      <p class="education-honors">National Scholarship · First-Class Scholarship · Second-Class Scholarship · Kingsoft Scholarship</p>
+    </div>
+  </article>
+</div>
 
 <span class="anchor" id="patents"></span>
 
