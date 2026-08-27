@@ -7,7 +7,7 @@ author_profile: true
 
 <span class="anchor" id="about"></span>
 
-<section class="intro-hero">
+<section class="intro-hero intro-hero--mech">
   <p class="intro-kicker">AGENTIC RL · MULTIMODAL INTELLIGENCE · 3D GENERATION</p>
   <h1>让智能体在真实世界中<br /><span>学会推理、行动与创造。</span></h1>
   <p class="intro-lead">我是董浩森，一名专注于大模型后训练与多模态智能体的算法研究者。</p>
@@ -20,6 +20,7 @@ author_profile: true
     <span><strong>WHU</strong> Top 3%</span>
     <span><strong>ByteDance</strong> 算法实习</span>
   </div>
+  <model-viewer class="hero-mech-trick" src="{{ site.baseurl }}/models/mech-pilot.glb" alt="可交互的机甲驾驶员三维模型" camera-controls disable-pan auto-rotate auto-rotate-delay="900" rotation-per-second="10deg" interaction-prompt="none" shadow-intensity="1" shadow-softness=".85" exposure="1.05" tone-mapping="neutral"></model-viewer>
 </section>
 
 ## About Me

@@ -13,7 +13,7 @@ redirect_from:
 
 <span class="anchor" id="about"></span>
 
-<section class="intro-hero">
+<section class="intro-hero intro-hero--mech">
   <p class="intro-kicker">AGENTIC RL · MULTIMODAL INTELLIGENCE · 3D GENERATION</p>
   <h1>Building agents that can<br /><span>reason, act, and create.</span></h1>
   <p class="intro-lead">I am Haosen Dong, an AI researcher focused on large-model post-training and multimodal agents.</p>
@@ -26,6 +26,7 @@ redirect_from:
     <span><strong>WHU</strong> Top 3%</span>
     <span><strong>ByteDance</strong> Research Intern</span>
   </div>
+  <model-viewer class="hero-mech-trick" src="{{ site.baseurl }}/models/mech-pilot.glb" alt="Interactive 3D mech pilot" camera-controls disable-pan auto-rotate auto-rotate-delay="900" rotation-per-second="10deg" interaction-prompt="none" shadow-intensity="1" shadow-softness=".85" exposure="1.05" tone-mapping="neutral"></model-viewer>
 </section>
 
 ## About Me
