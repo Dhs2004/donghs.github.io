@@ -154,7 +154,7 @@ author_profile: true
 
 <span class="anchor" id="support"></span>
 <div class="support-row">
-  <span class="page-view-counter" id="vercount_container_page_pv"><span class="counter-dot" aria-hidden="true"></span> 本页访问 <strong id="vercount_value_page_pv">—</strong> 次</span>
+  <span class="page-view-counter"><span class="counter-dot" aria-hidden="true"></span> 总浏览次数 <strong class="unified-page-view-count">—</strong></span>
   <button class="tip-button" type="button" onclick="document.getElementById('tip-dialog').showModal()">打赏支持</button>
 </div>
 
