@@ -16,7 +16,7 @@ author_profile: true
     <a class="intro-button" href="https://github.com/Dhs2004">GitHub</a>
   </div>
   <div class="intro-facts">
-    <span><strong>USTC</strong> 2026 直博</span>
+    <span><strong>Research</strong> Agentic RL</span>
     <span><strong>WHU</strong> Top 3%</span>
     <span><strong>ByteDance</strong> 算法实习</span>
   </div>
@@ -25,7 +25,7 @@ author_profile: true
 
 ## About Me
 
-你好，我是 **董浩森（Haosen Dong）**，目前在字节跳动抖音直播部门担任大模型算法实习生，即将进入[中国科学技术大学](https://www.ustc.edu.cn/)计算机学院攻读电子信息专业博士学位（直博）。此前，我在[武汉大学](https://www.whu.edu.cn/)计算机学院获得计算机科学与技术学士学位，GPA **3.91/4.00（Top 3%）**。
+你好，我是 **董浩森（Haosen Dong）**，目前在字节跳动抖音直播部门担任大模型算法实习生。我毕业于[武汉大学](https://www.whu.edu.cn/)计算机学院，获得计算机科学与技术工学学士学位，GPA **3.91/4.00（Top 3%）**。
 
 我的研究兴趣集中在 **Agentic Reinforcement Learning、Multimodal Large Language Models 和 3D Generation**。我尤其关注稀疏奖励下的长程信用分配、外部技能内化、多模态推理一致性，以及如何构造真正符合人类偏好的奖励信号。
 
@@ -126,7 +126,6 @@ author_profile: true
 
 ## 📖 Education
 
-- **2026.09 — 预计入学**，中国科学技术大学，计算机学院，电子信息直博，合肥。
 - **2022.09 — 2026.06**，武汉大学，计算机学院，计算机科学与技术，武汉。
   - 期间受到涂志刚老师的指导。
   - GPA 3.91/4.00，专业 Top 3%。

@@ -22,7 +22,7 @@ redirect_from:
     <a class="intro-button" href="https://github.com/Dhs2004">GitHub</a>
   </div>
   <div class="intro-facts">
-    <span><strong>USTC</strong> Direct Ph.D. 2026</span>
+    <span><strong>Research</strong> Agentic RL</span>
     <span><strong>WHU</strong> Top 3%</span>
     <span><strong>ByteDance</strong> Research Intern</span>
   </div>
@@ -31,7 +31,7 @@ redirect_from:
 
 ## About Me
 
-I am **Haosen Dong**, currently a Large Language Model Algorithm Intern with Douyin Live at ByteDance. I will join the School of Computer Science and Technology at the [University of Science and Technology of China](https://www.ustc.edu.cn/) as a direct-entry Ph.D. student in Electronic Information. I received my B.Eng. in Computer Science and Technology from [Wuhan University](https://www.whu.edu.cn/), with a GPA of **3.91/4.00 (Top 3%)**.
+I am **Haosen Dong**, currently a Large Language Model Algorithm Intern with Douyin Live at ByteDance. I received my B.Eng. in Computer Science and Technology from the School of Computer Science at [Wuhan University](https://www.whu.edu.cn/), with a GPA of **3.91/4.00 (Top 3%)**.
 
 My research interests include **Agentic Reinforcement Learning, Multimodal Large Language Models, and 3D Generation**. I am particularly interested in long-horizon credit assignment under sparse rewards, external-skill internalization, consistent multimodal reasoning, and reward signals that better reflect human preferences.
 
@@ -132,7 +132,6 @@ I am open to research and engineering collaborations in post-training, Agent RL,
 
 ## 📖 Education
 
-- **Sep 2026 — Incoming**, University of Science and Technology of China, School of Computer Science and Technology, direct-entry Ph.D. in Electronic Information, Hefei.
 - **Sep 2022 — Jun 2026**, Wuhan University, School of Computer Science, B.Eng. in Computer Science and Technology, Wuhan.
   - Mentored by Prof. Zhigang Tu.
   - GPA 3.91/4.00, Top 3%.
