@@ -23,7 +23,7 @@ redirect_from:
   </div>
   <div class="intro-facts">
     <span><strong>Research</strong> Agentic RL</span>
-    <span><strong>WHU</strong> Top 3%</span>
+    <span><strong>WHU</strong> Top 5%</span>
     <span><strong>ByteDance</strong> Research Intern</span>
   </div>
   <model-viewer class="hero-mech-trick" src="{{ site.baseurl }}/models/mech-pilot.glb" alt="Interactive 3D mech pilot" camera-controls disable-pan auto-rotate auto-rotate-delay="900" rotation-per-second="10deg" interaction-prompt="none" shadow-intensity="1" shadow-softness=".85" exposure="1.05" tone-mapping="neutral"></model-viewer>
@@ -31,7 +31,7 @@ redirect_from:
 
 ## About Me
 
-I am **Haosen Dong**, currently a Large Language Model Algorithm Intern with Douyin Live at ByteDance. I received my B.Eng. in Computer Science and Technology from the School of Computer Science at [Wuhan University](https://www.whu.edu.cn/), with a GPA of **3.91/4.00 (Top 3%)**.
+I am **Haosen Dong**, currently a Large Language Model Algorithm Intern with Douyin Live at ByteDance. I received my B.Eng. in Computer Science and Technology from the School of Computer Science at [Wuhan University](https://www.whu.edu.cn/), with a GPA of **3.91/4.00 (Top 5%)**.
 
 My research interests include **Agentic Reinforcement Learning, Multimodal Large Language Models, and 3D Generation**. I am particularly interested in long-horizon credit assignment under sparse rewards, external-skill internalization, consistent multimodal reasoning, and reward signals that better reflect human preferences.
 
@@ -134,7 +134,7 @@ I am open to research and engineering collaborations in post-training, Agent RL,
 
 - **Sep 2022 — Jun 2026**, Wuhan University, School of Computer Science, B.Eng. in Computer Science and Technology, Wuhan.
   - Mentored by Prof. Zhigang Tu.
-  - GPA 3.91/4.00, Top 3%.
+  - GPA 3.91/4.00, Top 5%.
   - National Scholarship, First-Class Scholarship, Second-Class Scholarship, and Kingsoft Scholarship.
 
 <span class="anchor" id="patents"></span>
