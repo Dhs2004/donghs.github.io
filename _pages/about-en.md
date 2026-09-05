@@ -42,7 +42,7 @@ I am open to research and engineering collaborations in post-training, Agent RL,
 ## 🔥 News
 
 - **2026.08** — DEPPO was accepted to the EMNLP 2026 Main Conference.
-- **2026.06** — Joined Douyin Live at ByteDance to work on multimodal 4D part decomposition and 3D module quality reward models.
+- **2026.06** — Joined Douyin Live at ByteDance to work on post-training for Image2Three.js generation, including SFT, reward modeling, preference optimization, and reinforcement learning.
 - **2025.10** — Placed third in the MARS2 2025 Visual Geo-localization in Real-world Scenarios Challenge.
 - **2025.08** — Joined the Visual Understanding R&amp;D Center at TeleAI and contributed to TeleMM-2.0-Thinking training iterations.
 - **2025.05** — DED-Net was published in *The Visual Computer*.
@@ -109,9 +109,10 @@ I am open to research and engineering collaborations in post-training, Agent RL,
     <div class="timeline-date">Jun 2026 — Present</div>
   </div>
   <ul>
-    <li><strong>Multimodal 4D decomposition:</strong> built 170K training samples covering GLB cleaning, multi-view rendering, Tree/Schema generation, 3D bounding boxes, and chain-of-thought data; performed LoRA and full-parameter SFT on SeedLite and Qwen3.6-35B-A3B.</li>
-    <li><strong>3D reward modeling:</strong> constructed 5,196 balanced positive/negative samples over 1,299 modules, covering floating disconnections, rendering defects, geometric intersections, and scale/pose issues.</li>
-    <li><strong>Quality evaluation:</strong> developed an LLM-as-Judge pipeline combining eight-view renders with Three.js source evidence for RL/DPO rewards and data filtering.</li>
+    <li><strong>Image2Three.js data and SFT:</strong> designed an agent-driven data pipeline and produced 100K+ high-quality module examples; conducted MTP-SFT with ms-swift to improve complex structural reasoning and generation-path planning.</li>
+    <li><strong>Quality modeling and preference optimization:</strong> built 5,196 balanced samples from 1,299 modules across floating disconnections, rendering defects, geometric intersections, and scale/pose issues, with both chain-of-thought and direct-answer variants; distilled GPT-based evaluation into quality models through LoRA and full-parameter SFT, then constructed 20K+ preference pairs for RPO.</li>
+    <li><strong>Reinforcement learning and efficiency:</strong> designed route-length reward shaping that jointly optimizes structural quality and generation-path cost, reducing redundant routing while preserving module quality.</li>
+    <li><strong>Reverse CoT and curriculum distillation:</strong> distilled a domain-specific generation skill from high-quality module code and used it to reconstruct reasoning trajectories from user prompts to target modules; introduced task simplification, decomposition, and easy-to-hard curricula to strengthen Qwen3.6-35B-A3B on complex module understanding, planning, and generation.</li>
   </ul>
 </div>
 

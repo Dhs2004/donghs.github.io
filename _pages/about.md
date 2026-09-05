@@ -36,7 +36,7 @@ author_profile: true
 ## 🔥 News
 
 - **2026.08** — DEPPO 被 EMNLP 2026 Main Conference 接收
-- **2026.06** — 加入字节跳动抖音直播部门，开展多模态 4D 拆件模型与 3D 模组质量奖励模型训练。
+- **2026.06** — 加入字节跳动抖音直播部门，开展 Image2Three.js 生成模型后训练，覆盖 SFT、质量建模、偏好优化与强化学习。
 - **2025.10** — 获得 MARS2 2025 现实场景视觉定位（VG-RS）挑战赛第三名。
 - **2025.08** — 加入 TeleAI 视觉理解研发中心实习，参与 TeleMM-2.0-Thinking 的训练迭代。
 - **2025.05** — 低光图像恢复论文 DED-Net 发表于 *The Visual Computer*。
@@ -103,9 +103,10 @@ author_profile: true
     <div class="timeline-date">2026.06 — 至今</div>
   </div>
   <ul>
-    <li><strong>多模态 4D 拆件：</strong>完成 GLB 清洗、多视图渲染、Tree/Schema、3D BBox 与 CoT 生成，构建 17 万条训练数据；在 SeedLite 与 Qwen3.6-35B-A3B 上完成 LoRA / 全量 SFT。</li>
-    <li><strong>3D 奖励模型：</strong>构建 1,299 个模组、5,196 条正负均衡数据，覆盖悬浮断连、几何渲染、穿插嵌入及比例姿态四类问题。</li>
-    <li><strong>质量评测：</strong>搭建融合八视图渲染和 Three.js 源码证据的 LLM-as-Judge 管线，支持 RL/DPO 奖励信号与数据过滤。</li>
+    <li><strong>Image2Three.js 数据与 SFT：</strong>设计 Agent 数据生产管线，规模化构建 10 万+高质量模组样本；基于 ms-swift 开展 MTP-SFT 训练，提升复杂模组的结构理解与生成路径规划能力。</li>
+    <li><strong>质量建模与偏好优化：</strong>围绕悬浮断连、几何渲染、穿插嵌入及比例姿态四类问题，以 1,299 个模组构建 5,196 条正负均衡数据及有/无 CoT 版本；通过 GPT 评审能力蒸馏、LoRA 与全量 SFT 对比训练质量模型，并构建 2 万+偏好数据开展 RPO 训练。</li>
+    <li><strong>强化学习与效率优化：</strong>设计路由长度奖惩机制，将结构质量奖励与生成路径成本联合纳入优化目标，在保持模组生成质量的同时减少冗余路由。</li>
+    <li><strong>逆向 CoT 与课程蒸馏：</strong>基于优质模组代码沉淀垂域生成 Skill，逆向还原从 User Prompt 到目标模组的推理轨迹；对高复杂度任务进行难度降级和子任务分解，通过由易到难的课程蒸馏增强 Qwen3.6-35B-A3B 的复杂模组理解、规划与生成能力。</li>
   </ul>
 </div>
 
